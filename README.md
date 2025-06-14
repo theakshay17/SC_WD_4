@@ -1,1 +1,1 @@
-# SC_WD_4
+Add these files in SRC (typescript with react)
