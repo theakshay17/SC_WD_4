@@ -1,0 +1,104 @@
+.header{
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .date{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.date .dateText{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.date .monthDay{
+    font-size: 1.1rem;
+}
+
+.header .listSettings{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.modal {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  background: transparent;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+  z-index: 10;
+}
+
+.modal h4 {
+  margin-bottom: 10px;
+}
+
+.predefined-images {
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+  margin-bottom: 10px;
+}
+
+.predefined-images img {
+  width: 80px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.predefined-images img:hover {
+  border: 2px solid #9381FF;
+}
+
+.upload-section input[type="file"] {
+  display: none;
+}
+
+.upload-label {
+  display: inline-block;
+  background-color: #9381FF;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.reset-btn {
+  background: #FF6B6B;
+  color: white;
+  padding: 10px;
+  width: 120px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.modal-container {
+  position: relative;
+}
+
+.modal {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  width: 260px;
+}
